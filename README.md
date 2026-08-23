@@ -1,5 +1,11 @@
 # Silentmode Assignment
 
+## Project Overview
+
+This project demonstrates how a server can request and download a file from an on-premise client that is not directly accessible from the public internet.
+
+The client establishes a WebSocket connection to the server and registers with a unique `clientId`. The server can then trigger a file download from a connected client through an HTTP endpoint using the existing WebSocket connection.
+
 ## Prerequisites
 
 - Node.js
